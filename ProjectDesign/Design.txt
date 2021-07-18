@@ -1,0 +1,43 @@
+TEnMo application design 
+
+Server 
+
+Models:
+account 
+users 
+Transfers 
+
+DAO 
+(+ DAO interface) 
+jdbcAccount 
+JdbcUsers
+jdbcTransfers
+
+Controllers 
+UsersController 
+
+Endpoint 
+Base_URL + "/users"
+
+
+Exceptions 
+
+
+Client 
+Models:
+account 
+users 
+Transfers 
+
+Services 
+ConsoleService
+UsersServices -- handle account balance access
+TransfersServices -- handle transactions
+
+option 2 (Services)
+AccountService
+
+
+App
+
+
